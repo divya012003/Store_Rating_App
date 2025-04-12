@@ -1,0 +1,230 @@
+
+
+/* .home-container {
+    text-align: center;
+    margin-top: 100px;
+    
+  } */
+  body {
+    /* background: linear-gradient(to right, #00c6ff, #0072ff); */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .card {
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 900px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  .form-section {
+    
+    padding: 40px;
+    background-color: #fff;
+  }
+  .info-section {
+    background: linear-gradient(to right, rgba(0, 198, 255, 0.8), rgba(0, 114, 255, 0.8));
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .info-section h2 {
+    font-weight: 700;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+  /* .btn-primary {
+    width: 100%;
+    border-radius: 10px;
+  } */
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  /* //admin
+   */
+  .button-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: rgb(72, 165, 98);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+/* General Auth Container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 20px;
+  }
+  
+  /* Auth Form Styling */
+  .auth-form {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .auth-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .auth-form input:focus {
+    border-color: #2575fc;
+    outline: none;
+  }
+  
+  .auth-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #1a5fd1;
+  }
+  
+  /* Home Page with Login/Register Options */
+  .home-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+  
+  .home-options h1 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  
+  .home-options .option-btn {
+    background-color: white;
+    color: #2575fc;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .home-options .option-btn:hover {
+    background-color: #e0e0e0;
+  }
+  /* Dashboard */
+.dashboard-container {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .dashboard-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-buttons button:hover {
+    background: #0056b3;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .styled-table th, .styled-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .styled-table th {
+    background-color: #f8f8f8;
+  }
+  
+  .password-update-form {
+    margin-top: 20px;
+  }
+  
+  .password-update-form input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
